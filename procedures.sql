@@ -76,7 +76,7 @@ $BODY$
 LANGUAGE 'plpgsql' VOLATILE;
 
 --GET Restaurant By ID--
-CREATE OR REPLACE FUNCTION Get_Restaurant (_id INT = NULL)
+CREATE OR REPLACE FUNCTION Get_Restaurant_By_Id (_id INT = NULL)
 RETURNS refcursor AS
 $BODY$
 DECLARE
